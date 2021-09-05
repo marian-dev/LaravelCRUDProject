@@ -40,8 +40,8 @@ class CreateDriverRequest extends FormRequest
             'address.required' => 'Driver address is mandatory',
             //'picture.required' => 'You need a profile picture',
             'gender.required' => 'Gender info is mandatory',
-            'licence_type' => 'Driver licence type required (Ex: A,B,C...)',
-            'licence_date' => 'We must know when the driver licence was obtained'
+            'licence_type.required' => 'Driver licence type required (Ex: A,B,C...)',
+            'licence_date.required' => 'We must know when the driver licence was obtained'
         ];
     }
 }
